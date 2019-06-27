@@ -1,0 +1,13 @@
+../../bin/pycatj,sha256=iQkswvSVDmZCjMUE6JYV533kEm_XqkVH_CH0UNw6wuI,231
+pycatj-0.1.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+pycatj-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pycatj-0.1.0.dist-info/METADATA,sha256=XPkiqpxUt9M7hxqvdAs3ZN9nJesCc7rcCtLBkCPDmno,418
+pycatj-0.1.0.dist-info/RECORD,,
+pycatj-0.1.0.dist-info/WHEEL,sha256=C90Mwr_Jk4_IPKbEQeJHH_TSkLAVFEZOMPO9_4HdXQI,85
+pycatj-0.1.0.dist-info/entry_points.txt,sha256=mZICsJa7PO4glSKYK3FkhOvl1GEYddmG5jQjlNLBtak,42
+pycatj/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycatj/__pycache__/__init__.cpython-37.pyc,,
+pycatj/__pycache__/cmd.cpython-37.pyc,,
+pycatj/__pycache__/pycatj.cpython-37.pyc,,
+pycatj/cmd.py,sha256=x0v9W2KWscKOUrNSeK3nXCzWOpbnf-qJzT4g12tvHGw,891
+pycatj/pycatj.py,sha256=ZZtLg-WO65CIUfeyO8o_BZW3s77FHBiglFNAJh8QxVQ,1497

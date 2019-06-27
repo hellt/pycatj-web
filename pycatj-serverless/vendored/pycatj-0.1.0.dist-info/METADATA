@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pycatj
+Version: 0.1.0
+Summary: Displays JSON and YAML files in a flat format (inspired by mattleibow/catj)
+Author: David Barroso
+Author-email: dbarrosop@dravetech.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: ruamel.yaml (>=0.15.97,<0.16.0)
