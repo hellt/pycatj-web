@@ -1,0 +1,16 @@
+{
+    "somekey": "localfile",
+    "somenumber": 123,
+    "a_dict": {
+        "asd": "123",
+        "qwe": [
+            1,
+            2,
+            3
+        ],
+        "nested_dict": {
+            "das": 31,
+            "qwe": "asd"
+        }
+    }
+}
