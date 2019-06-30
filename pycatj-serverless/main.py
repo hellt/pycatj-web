@@ -18,12 +18,15 @@ def pycatjify(request):
     root = "my_dict"
     # if request object exists and the keys `data` and `root` are inside of it
     # rewrite the default values for `data` and `root`
+    print("Incoming request body: ", request.get_data())
     rj = request.get_json()
     if rj:
         data = rj
         if "pycatj_data" in rj:
+            print("pycatj_data key is found in the request body")
             data = rj["pycatj_data"]
         if "root" in rj:
+            print("root key is found in the request body")
             root = rj["root"]
 
     result = io.StringIO()
