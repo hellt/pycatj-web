@@ -1,12 +1,13 @@
+import io
+import json
 import os
 import sys
-import json
-import io
 
 here = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(os.path.join(here, "vendored"))
 # now it is allowed to add a non-std package
 from pycatj import pycatj
+import ruamel.yaml
 
 
 def pycatjify(request):
@@ -38,6 +39,8 @@ def pycatjify(request):
         if "pycatj_data" in rj:
             print("pycatj_data key is found in the request body")
             data = rj["pycatj_data"]
+            if not isinstance(data, dict):
+                data = ruamel.yaml.safe_load(rj["pycatj_data"])
         if "root" in rj:
             print("root key is found in the request body")
             root = rj["root"]
