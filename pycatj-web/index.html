@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Main Navigation-->
+    <header>
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark black scrolling-navbar">
+            <a class="navbar-brand" href="#"><strong><code>Py[cat]jify</code></strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#basicExampleModal">About</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://test.com"><i class="fab fa-github"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://twitter.com/ntdvps"><i class="fab fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <!--Main Navigation-->
+    <main>
+        <!-- Start your project here-->
+        <div class="container-fluid">
+            <div class="row mt-5 pt-5">
+                <div class="col">
+                    <div class="form-group pink-border-focus">
+                        <label for="exampleFormControlTextarea5"></label>
+                        <textarea class="form-control text-monospace" id="in_form" rows="10"
+                            placeholder="1 Pase JSON here"></textarea>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group pink-border-focus">
+                        <label for="exampleFormControlTextarea5"></label>
+                        <textarea class="form-control text-monospace" id="out_form" rows="10"
+                            placeholder="2 Grab pycatjified code here"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+<!-- Modal -->
+<div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="exampleModalLabel">About Pycatjify</h4>
+            </div>
+            <div class="modal-body">
+                <p><code>Pycatjify</code> is a simple web service built around the <code>pycatj</code> tool. It flattens
+                    json files into python compatible paths.</p>
+                <p>Brought to you by:</p>
+                <!-- Card deck -->
+                <div class="card-deck">
+
+                    <!-- Card -->
+                    <div class="card mb-6">
+
+                        <!--Card image-->
+                        <div class="view overlay">
+                            <img class="card-img-top"
+                                src="https://pbs.twimg.com/profile_images/465375533308444672/8QQ_awHq_400x400.jpeg"
+                                alt="David">
+                            <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+
+                        <!--Card content-->
+                        <div class="card-body">
+
+                            <!--Title-->
+                            <h4 class="card-title">David Barroso</h4>
+                            <!--Text-->
+                            <p class="card-text">Author of many popular networking-oriented tools and libraries.
+                                <code>pycatj</code> is one of them.</p>
+                            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                            <a class="px-2 fa-lg tw-ic" href="https://twitter.com/dbarrosop"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="px-2 fa-lg fb-ic" href="https://github.com/dbarrosop/pycatj"><i
+                                    class="fab fa-github"></i></a>
+
+                        </div>
+
+                    </div>
+                    <!-- Card -->
+
+                    <!-- Card -->
+                    <div class="card mb-6">
+
+                        <!--Card image-->
+                        <div class="view overlay">
+                            <img class="card-img-top"
+                                src="https://pbs.twimg.com/profile_images/865254008897908736/A2AB_p1W_400x400.jpg"
+                                alt="Roman Dodin">
+                            <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+
+                        <!--Card content-->
+                        <div class="card-body">
+
+                            <!--Title-->
+                            <h4 class="card-title">Roman Dodin</h4>
+                            <!--Text-->
+                            <p class="card-text">Wrapped <code>pycatj</code> in a serverless package and created this
+                                web page for ease of access</p>
+                            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                            <a class="px-2 fa-lg tw-ic" href="https://twitter.com/ntdvps"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="px-2 fa-lg fb-ic" href="https://github.com/dbarrosop/pycatj"><i
+                                    class="fab fa-github"></i></a>
+
+                        </div>
+
+                    </div>
+                    <!-- Card -->
+
+                </div>
+                <!-- Card deck -->
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>
