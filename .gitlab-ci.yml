@@ -1,0 +1,16 @@
+stages:
+  - docs
+
+image: alpine:latest
+
+pages:
+  stage: docs
+  script:
+    - mkdir public
+    - cp -a pycatj-web/* public
+  # send all files from public directory to the CI server
+  artifacts:
+    paths:
+      - public
+  only:
+    - master  # this job will affect only the 'master' branch
