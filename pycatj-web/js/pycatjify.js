@@ -1,7 +1,12 @@
 $(function () {
     $('#convert_btn').click(function () {
         var data = {}
-        data["pycatj_data"] = JSON.parse($('#in_form').val())
+        if ($('#yaml_switch').prop("checked")) {
+            data["pycatj_data"] = $('#in_form').val()
+        } else {
+            data["pycatj_data"] = JSON.parse($('#in_form').val())
+        }
+
         // todo: add root input element
         // data["root"] = "POST"
         console.log(data)
